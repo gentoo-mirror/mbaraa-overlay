@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>m.baraa.masri@gmail.com</email>
+		<name>Baraa Al-Masri</name>
+	</maintainer>
+	<upstream>
+		<bugs-to>https://github.com/mbaraa/eloi/issues</bugs-to>
+		<changelog>https://github.com/mbaraa/eloi/blob/master/CHANGELOG.md</changelog>
+		<doc>https://github.com/mbaraa/eloi/blob/master/README.md</doc>
+	</upstream>
+</pkgmetadata>
