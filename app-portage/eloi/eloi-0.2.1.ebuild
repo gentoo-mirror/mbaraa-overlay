@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 BDEPEND="
-	>=dev-go/go-1.23:1
+	>=dev-go/go-1.23.0:1
 "
 
 RDEPEND="
