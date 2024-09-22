@@ -2,8 +2,14 @@
 
 My personal Gentoo Overlay repo, contains the following:
 
-- app-portage/eloi
-- app-misc/dotsync
+- **app-portage/eloi**
+
+  - Gentoo's eix with extra steps, an AUR-like package manager for Gentoo.
+  - [https://github.com/mbaraa/eloi](https://github.com/mbaraa/eloi)
+
+- **app-misc/dotsync**
+  - Dotfiles synchronizer thingy.
+  - [https://github.com/mbaraa/dotsync](https://github.com/mbaraa/dotsync)
 
 # Installation
 
