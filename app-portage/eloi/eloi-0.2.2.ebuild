@@ -12,13 +12,9 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
-BDEPEND="
-	>=dev-lang/go-1.23.0
-"
+BDEPEND=">=dev-lang/go-1.22.6"
 
-RDEPEND="
-	>=app-portage/gentoolkit-0.6.7
-"
+RDEPEND=">=app-portage/gentoolkit-0.6.7"
 
 src_unpack() {
 	git-r3_src_unpack
