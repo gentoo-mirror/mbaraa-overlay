@@ -8,8 +8,13 @@ My personal Gentoo Overlay repo, contains the following:
   - [https://github.com/mbaraa/eloi](https://github.com/mbaraa/eloi)
 
 - **app-misc/dotsync**
+
   - Dotfiles synchronizer thingy.
   - [https://github.com/mbaraa/dotsync](https://github.com/mbaraa/dotsync)
+
+- **media-sound/grievous**
+  - Named after General Grievous, where it generates noises from text files or a provided URL, just like how Grievous makes weird noises when he talks.
+  - [https://github.com/mbaraa/grievous](https://github.com/mbaraa/grievous)
 
 # Installation
 
