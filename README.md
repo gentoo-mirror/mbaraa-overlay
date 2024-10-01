@@ -13,8 +13,13 @@ My personal Gentoo Overlay repo, contains the following:
   - [https://github.com/mbaraa/dotsync](https://github.com/mbaraa/dotsync)
 
 - **media-sound/grievous**
+
   - Named after General Grievous, where it generates noises from text files or a provided URL, just like how Grievous makes weird noises when he talks.
   - [https://github.com/mbaraa/grievous](https://github.com/mbaraa/grievous)
+
+- **games-misc/lsdcat**
+  - Rainbows and unicorns in Rust!
+  - [https://github.com/mbaraa/lsdcat](https://github.com/mbaraa/lsdcat)
 
 # Installation
 
