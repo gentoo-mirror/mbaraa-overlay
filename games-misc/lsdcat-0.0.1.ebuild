@@ -29,3 +29,12 @@ BDEPEND=""
 # rust does not use *FLAGS from make.conf, silence portage warning
 # update with proper path to binaries this crate installs, omit leading /
 QA_FLAGS_IGNORED="usr/bin/${PN}"
+
+pkg_setup() {
+	export ZSTD_SYS_USE_PKG_CONFIG=1
+}
+
+src_install() {
+	dodoc README.md
+	cargo_src_install
+}
