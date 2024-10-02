@@ -165,13 +165,26 @@ CRATES="
 inherit cargo
 
 DESCRIPTION="Named after General Grievous, where it generates noises from text files or a provided URL, just like how Grievous makes weird noises when he talks."
-HOMEPAGE=""
+HOMEPAGE="https://github.com/mbaraa/grievous"
 SRC_URI="
-	${CARGO_CRATE_URIS}
+	https://github.com/mbaraa/${PN}/archive/v${PV}.tar.gz -> ${PN}.tar.gz
+    ${CARGO_CRATE_URIS}
+"
+
+RDEPEND=">=media-libs/alsa-lib-1.2.12"
+DEPEND="${RDEPEND}"
+BDEPEND="
+	${RDEPEND}
+	dev-build/cmake
+	>=virtual/rust-1.74.0
 "
 
 LICENSE="GPL-3"
 # Dependent crate licenses
 LICENSE+=" Apache-2.0 BSD ISC MIT Unicode-DFS-2016"
-SLOT="0"
+SLOT="1"
 KEYWORDS="~amd64"
+
+src_install() {
+	cargo_src_install
+}
