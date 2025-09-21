@@ -1,0 +1,13 @@
+BDEPEND=>=net-libs/nodejs-18.3.0 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst prepare unpack
+DESCRIPTION=Optimizer and compiler/toolchain library for WebAssembly
+EAPI=8
+HOMEPAGE=https://github.com/WebAssembly/binaryen/
+INHERIT=git-r3
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+PROPERTIES=live
+RDEPEND=dev-vcs/git >=dev-build/cmake-3.31.5 sys-devel/gcc
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=da30624747f2171fb4c07b4c6de0a5bf
