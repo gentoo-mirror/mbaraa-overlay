@@ -5,11 +5,12 @@ inherit git-r3
 DESCRIPTION="Optimizer and compiler/toolchain library for WebAssembly"
 HOMEPAGE="https://github.com/WebAssembly/binaryen/"
 EGIT_REPO_URI="https://github.com/WebAssembly/binaryen.git"
-EGIT_TAG="version_${PV}"
+EGIT_BRANCH="main"
+EGIT_COMMIT="version_124"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE=""
 
 RDEPEND="
@@ -67,5 +68,5 @@ src_install() {
 }
 
 pkg_postinst() {
-	echo "FOR THE REPUBLIC!"
+	einfo "FOR THE REPUBLIC!"
 }
